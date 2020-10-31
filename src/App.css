@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation Bar */
+.nav-pills .nav-link.active {
+  background-color: red !important;
+  color: white !important;
+}
+
+/* Home Page */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_sub {
+  letter-spacing: 1px;
+}
+
+.hero span {
+  color: red;
+}
